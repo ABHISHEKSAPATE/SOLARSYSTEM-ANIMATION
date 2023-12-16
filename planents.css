@@ -1,0 +1,315 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: black;
+   
+}
+.container{
+    width:1510px;
+    height: 800px;
+    border: 0px solid red;
+}
+img{
+    width:1510px;
+    height: 800px;
+    position: relative;
+    top: 0;
+    left: 0;
+   
+}
+.sun {
+
+    width: 220px;
+    height: 220px;
+    margin-bottom: 1400px;
+    position: absolute;
+    top: 277px;
+
+    left: 44px;
+
+    border-radius: 50%;
+    transition: 500ms linear;
+    animation: rotateImg 3s linear infinite;
+}
+@keyframes rotateImg{
+    from {
+     transform: rotate(360deg);
+    }
+   to {
+    transform: rotate(0deg);
+   }
+
+		
+	}
+
+
+.sun:hover{
+   
+    box-shadow: 0px 0px 5px 10px darkred;
+} 
+  
+    
+    
+
+  
+.earth {
+    width: 120px;
+    height: 120px;
+    margin-bottom: 1400px;
+    position: absolute;
+    top: 350px;
+    left: 450px;
+    border-radius: 50%;
+    transition: 500ms linear;
+    animation: rotateImg 3s linear infinite;
+}
+@keyframes rotateImg{
+    from {
+     transform: rotate(360deg);
+    }
+   to {
+    transform: rotate(0deg);
+   }
+
+		
+	}
+  
+
+.earth:hover{
+   
+    box-shadow: 0px 0px 5px  10px darkblue;
+ 
+} 
+.venus {
+    width: 89px;
+    height: 88px;
+    margin-bottom: 1400px;
+    position: absolute;
+    top: 356px;
+    left: 348px;
+    border-radius: 50%;
+    transition: 500ms linear;
+    animation: rotateImg 3s linear infinite;
+}
+@keyframes rotateImg{
+    from {
+     transform: rotate(360deg);
+    }
+   to {
+    transform: rotate(0deg);
+   }
+
+		
+	}
+  
+
+.venus:hover{
+   
+    box-shadow: 0px 0px 5px  10px #b4491a;
+ 
+} 
+.mercury {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 1400px;
+    position: absolute;
+    top: 380px;
+    left: 280px;
+    border-radius: 50%;
+    transition: 500ms linear;
+    animation: rotateImg 3s linear infinite;
+}
+@keyframes rotateImg{
+    from {
+     transform: rotate(360deg);
+    }
+   to {
+    transform: rotate(0deg);
+   }
+
+		
+	}
+  
+
+.mercury:hover{
+   
+    box-shadow: 0px 0px 5px  10px #52362e;
+ 
+} 
+.mars {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 1400px;
+    position: absolute;
+    top: 350px;
+    left: 583px;
+    border-radius: 50%;
+    transition: 500ms linear;
+    animation: rotateImg 3s linear infinite;
+}
+@keyframes rotateImg{
+    from {
+     transform: rotate(360deg);
+    }
+   to {
+    transform: rotate(0deg);
+   }
+
+		
+	}
+  
+
+.mars:hover{
+   
+    box-shadow: 0px 0px 5px  10px #5d2e13;
+ 
+} 
+.jupiter {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 1400px;
+    position: absolute;
+    top: 300px;
+    left: 700px;
+    border-radius: 50%;
+    transition: 500ms linear;
+    animation: rotateImg 3s linear infinite;
+}
+@keyframes rotateImg{
+    from {
+     transform: rotate(360deg);
+    }
+   to {
+    transform: rotate(0deg);
+   }
+
+		
+	}
+  
+
+.jupiter:hover{
+   
+    box-shadow: 0px 0px 5px  10px #d7c89a;
+ 
+} 
+
+  .saturn1 {
+
+      width: 152px;
+      height: 152px;
+      margin-bottom: 1400px;
+      position: absolute;
+      top: 325px;
+      left: 935px;
+
+      border-radius: 50%;
+      transition: 500ms linear;
+      animation: rotateImg 3s linear infinite;
+  }
+@keyframes rotateImg{
+    from {
+     transform: rotate(360deg);
+    }
+   to {
+    transform: rotate(0deg);
+   }
+
+		
+	}
+  
+  
+
+.saturn1:hover{
+   
+    box-shadow: 0px 0px 5px  10px #9e5214;
+ 
+} 
+.uranus {
+    width: 124px;
+    height: 124px;
+    margin-bottom: 1400px;
+    position: absolute;
+    top: 345px;
+    left: 1126px;
+    border-radius: 50%;
+    transition: 500ms linear;
+    animation: rotateImg 3s linear infinite;
+}
+@keyframes rotateImg{
+    from {
+     transform: rotate(360deg);
+    }
+   to {
+    transform: rotate(0deg);
+   }
+
+		
+	}
+  
+
+.uranus:hover{
+   
+    box-shadow: 0px 0px 5px  10px #0b4e6e;
+ 
+} 
+.neptune {
+    width: 110px;
+    height: 110px;
+    margin-bottom: 1400px;
+    position: absolute;
+    top: 350px;
+    left: 1265px;
+    border-radius: 50%;
+    transition: 500ms linear;
+    animation: rotateImg 3s linear infinite;
+}
+@keyframes rotateImg{
+    from {
+     transform: rotate(360deg);
+    }
+   to {
+    transform: rotate(0deg);
+   }
+
+		
+	}
+  
+
+.neptune:hover{
+   
+    box-shadow: 0px 0px 5px  10px #3859e9;
+ 
+} 
+
+
+
+
+.pluto {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 1400px;
+    position: absolute;
+    top: 370px;
+    left: 1400px;
+    border-radius: 50%;
+    transition: 500ms linear;
+    animation: rotateImg 3s linear infinite;
+}
+@keyframes rotateImg{
+    from {
+     transform: rotate(360deg);
+    }
+   to {
+    transform: rotate(0deg);
+   }
+
+		
+	}
+.pluto:hover{
+   
+    box-shadow: 0px 0px 5px  10px #fce4b6;
+ 
+} 
+
